@@ -2,7 +2,7 @@
   "name": "git-deploy-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Hi-Hazle.github.io/gitpage-test/",
+  "homepage": "https://Hi-Hazle.github.io/gitpage-test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
