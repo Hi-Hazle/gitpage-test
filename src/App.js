@@ -1,6 +1,7 @@
 import logo from "./logo.svg"
 import "./App.css"
 import Main from "./pages/main"
+import { Routes, Route } from "react-router-dom"
 
 function App() {
    return (
@@ -14,15 +15,7 @@ function App() {
                               ))}
                         </Route>
                      ))} */}
-            <Route
-               exact
-               path="/"
-               element={
-                  <>
-                     <Main />
-                  </>
-               }
-            />
+            <Route exact path="/" element={<Main />} />
          </Routes>
       </div>
    )
